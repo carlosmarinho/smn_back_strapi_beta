@@ -1,0 +1,68 @@
+{
+  "connection": "default",
+  "collectionName": "bairro",
+  "info": {
+    "name": "bairro",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "default": "",
+      "type": "string"
+    },
+    "imagem_destacada": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "cidade": {
+      "model": "cidade",
+      "via": "bairros"
+    },
+    "noticia": {
+      "collection": "noticia",
+      "via": "bairros"
+    },
+    "descricao": {
+      "default": "",
+      "type": "text"
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
+    },
+    "wpid": {
+      "default": "",
+      "type": "integer"
+    },
+    "eventos": {
+      "collection": "evento",
+      "via": "bairros"
+    },
+    "guias": {
+      "collection": "guia",
+      "via": "bairros"
+    },
+    "menus": {
+      "collection": "menu",
+      "via": "bairros",
+      "dominant": true
+    },
+    "paginas": {
+      "collection": "pagina",
+      "via": "bairro"
+    },
+    "site": {
+      "default": "",
+      "type": "string"
+    },
+    "preposicao": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

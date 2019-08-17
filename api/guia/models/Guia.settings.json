@@ -1,0 +1,189 @@
+{
+  "connection": "default",
+  "collectionName": "guia",
+  "info": {
+    "name": "guia",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "titulo": {
+      "default": "",
+      "type": "string"
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
+    },
+    "imagem_destacada": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "descricao": {
+      "default": "",
+      "type": "text"
+    },
+    "wp_user_id": {
+      "default": "",
+      "type": "integer"
+    },
+    "wpid": {
+      "default": "",
+      "type": "integer"
+    },
+    "categorias": {
+      "collection": "categoria",
+      "via": "guias",
+      "dominant": true
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "guias",
+      "dominant": true
+    },
+    "bairros": {
+      "collection": "bairro",
+      "via": "guias",
+      "dominant": true
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "imported_category": {
+      "default": false,
+      "type": "boolean"
+    },
+    "imported_tag": {
+      "default": false,
+      "type": "boolean"
+    },
+    "endereco": {
+      "default": "",
+      "type": "string"
+    },
+    "complemento": {
+      "default": "",
+      "type": "string"
+    },
+    "cep": {
+      "default": "",
+      "type": "string"
+    },
+    "telefone": {
+      "default": "",
+      "type": "string"
+    },
+    "celular": {
+      "default": "",
+      "type": "string"
+    },
+    "email": {
+      "default": "",
+      "type": "email"
+    },
+    "latitude": {
+      "default": "",
+      "type": "string"
+    },
+    "longitude": {
+      "default": "",
+      "type": "string"
+    },
+    "website": {
+      "default": "",
+      "type": "string"
+    },
+    "facebook": {
+      "default": "",
+      "type": "string"
+    },
+    "googleplus": {
+      "default": "",
+      "type": "string"
+    },
+    "twitter": {
+      "default": "",
+      "type": "string"
+    },
+    "nao_existe_mais": {
+      "default": false,
+      "type": "boolean"
+    },
+    "old_imagem_destacada": {
+      "default": "",
+      "type": "string"
+    },
+    "tipo": {
+      "default": "",
+      "type": "enumeration",
+      "enum": [
+        "guia comercial",
+        "guia de serviços"
+      ]
+    },
+    "imported_bairro": {
+      "default": false,
+      "type": "boolean"
+    },
+    "cidade": {
+      "collection": "cidade",
+      "via": "guias",
+      "dominant": true
+    },
+    "cidade_destaque": {
+      "model": "cidade",
+      "via": "guias_destacados"
+    },
+    "descricao_servicos": {
+      "default": "",
+      "type": "text"
+    },
+    "servicos": {
+      "collection": "servico",
+      "via": "guia"
+    },
+    "galeria_imagens": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "avaliacao": {
+      "default": "",
+      "type": "string"
+    },
+    "array_categorias": {
+      "default": "",
+      "type": "json"
+    },
+    "array_tags": {
+      "default": "",
+      "type": "json"
+    },
+    "array_bairros": {
+      "default": "",
+      "type": "json"
+    },
+    "array_cidades": {
+      "default": "",
+      "type": "json"
+    },
+    "diasfuncionamento": {
+      "default": "",
+      "type": "json"
+    },
+    "funcionamento_hora_inicial": {
+      "default": "",
+      "type": "string"
+    },
+    "funcionamento_hora_final": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

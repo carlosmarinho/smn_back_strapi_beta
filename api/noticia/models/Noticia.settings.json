@@ -1,0 +1,112 @@
+{
+  "connection": "default",
+  "collectionName": "noticia",
+  "info": {
+    "name": "noticia",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "titulo": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "descricao": {
+      "default": "",
+      "type": "text"
+    },
+    "imagem_destacada": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "bairros": {
+      "collection": "bairro",
+      "via": "noticia",
+      "dominant": true
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "noticias",
+      "dominant": true
+    },
+    "categorias": {
+      "collection": "categoria",
+      "via": "noticias",
+      "dominant": true
+    },
+    "wp_user_id": {
+      "default": "",
+      "type": "integer"
+    },
+    "wpid": {
+      "default": "",
+      "type": "integer"
+    },
+    "imported_category": {
+      "default": false,
+      "type": "boolean"
+    },
+    "imported_tag": {
+      "default": false,
+      "type": "boolean"
+    },
+    "old_imagem_destacada": {
+      "default": "",
+      "type": "string"
+    },
+    "imported_bairro": {
+      "default": false,
+      "type": "boolean"
+    },
+    "imported_imagem_destacada": {
+      "default": false,
+      "type": "boolean"
+    },
+    "array_categorias": {
+      "default": "",
+      "type": "json"
+    },
+    "array_bairros": {
+      "default": "",
+      "type": "json"
+    },
+    "array_tags": {
+      "default": "",
+      "type": "json"
+    },
+    "introducao": {
+      "default": "",
+      "type": "text"
+    },
+    "status": {
+      "default": "active",
+      "type": "enumeration",
+      "enum": [
+        "active",
+        "inactive",
+        "draft"
+      ]
+    },
+    "s3_imagem_destacada": {
+      "default": "",
+      "type": "string"
+    },
+    "featured": {
+      "default": true,
+      "type": "boolean"
+    }
+  }
+}

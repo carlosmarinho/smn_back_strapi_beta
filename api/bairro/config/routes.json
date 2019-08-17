@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bairros",
+      "handler": "Bairro.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bairros/count",
+      "handler": "Bairro.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bairros/:_id",
+      "handler": "Bairro.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bairros",
+      "handler": "Bairro.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bairros/:_id",
+      "handler": "Bairro.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bairros/:_id",
+      "handler": "Bairro.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
