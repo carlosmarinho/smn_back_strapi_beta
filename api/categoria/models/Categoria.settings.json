@@ -58,10 +58,6 @@
       "collection": "evento",
       "via": "categorias"
     },
-    "guias": {
-      "collection": "guia",
-      "via": "categorias"
-    },
     "wp_parent_id": {
       "default": "",
       "type": "integer"
@@ -69,6 +65,10 @@
     "parent_id": {
       "default": "",
       "type": "string"
+    },
+    "guias": {
+      "collection": "guia",
+      "via": "categorias"
     }
   }
 }

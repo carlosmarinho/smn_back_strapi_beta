@@ -28,14 +28,6 @@
       "collection": "bairro",
       "via": "cidade"
     },
-    "guias": {
-      "collection": "guia",
-      "via": "cidade"
-    },
-    "guias_destacados": {
-      "collection": "guia",
-      "via": "cidade_destaque"
-    },
     "slug": {
       "default": "",
       "type": "string"
@@ -43,6 +35,14 @@
     "undefined": {
       "collection": "evento",
       "via": "cidade"
+    },
+    "guias": {
+      "collection": "guia",
+      "via": "cidade"
+    },
+    "guias_destacados": {
+      "collection": "guia",
+      "via": "cidade_destaque"
     }
   }
 }

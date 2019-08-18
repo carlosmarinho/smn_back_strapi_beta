@@ -6,7 +6,10 @@
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "titulo": {
@@ -20,8 +23,7 @@
     "imagem_destacada": {
       "model": "file",
       "via": "related",
-      "plugin": "upload",
-      "required": false
+      "plugin": "upload"
     },
     "descricao": {
       "default": "",
@@ -55,11 +57,9 @@
       "plugin": "users-permissions"
     },
     "imported_category": {
-      "default": false,
       "type": "boolean"
     },
     "imported_tag": {
-      "default": false,
       "type": "boolean"
     },
     "endereco": {
@@ -111,7 +111,6 @@
       "type": "string"
     },
     "nao_existe_mais": {
-      "default": false,
       "type": "boolean"
     },
     "old_imagem_destacada": {
@@ -122,12 +121,12 @@
       "default": "",
       "type": "enumeration",
       "enum": [
+        "",
         "guia comercial",
         "guia de serviços"
       ]
     },
     "imported_bairro": {
-      "default": false,
       "type": "boolean"
     },
     "cidade": {
@@ -150,8 +149,7 @@
     "galeria_imagens": {
       "collection": "file",
       "via": "related",
-      "plugin": "upload",
-      "required": false
+      "plugin": "upload"
     },
     "avaliacao": {
       "default": "",

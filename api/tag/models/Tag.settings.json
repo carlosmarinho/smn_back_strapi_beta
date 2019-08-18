@@ -42,12 +42,12 @@
       "default": "",
       "type": "integer"
     },
-    "guias": {
-      "collection": "guia",
-      "via": "tags"
-    },
     "paginas": {
       "collection": "pagina",
+      "via": "tags"
+    },
+    "guias": {
+      "collection": "guia",
       "via": "tags"
     }
   }
