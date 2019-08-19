@@ -6,7 +6,10 @@
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "titulo": {
@@ -36,8 +39,7 @@
     "imagem_destacada": {
       "model": "file",
       "via": "related",
-      "plugin": "upload",
-      "required": false
+      "plugin": "upload"
     },
     "old_imagem_destacada": {
       "default": "",
@@ -74,7 +76,7 @@
       "type": "string"
     },
     "recorrencia": {
-      "default": "sem recorrencia",
+      "default": "sem recorrência",
       "type": "enumeration",
       "required": true,
       "enum": [
@@ -86,7 +88,7 @@
       ]
     },
     "classificacao_indicativa": {
-      "default": "",
+      "default": "sem classificação indicativa",
       "type": "enumeration",
       "enum": [
         "sem classificação indicativa",
@@ -103,11 +105,9 @@
       "type": "integer"
     },
     "imported_category": {
-      "default": false,
       "type": "boolean"
     },
     "imported_tag": {
-      "default": false,
       "type": "boolean"
     },
     "hora_inicio": {
@@ -119,7 +119,6 @@
       "type": "string"
     },
     "imported_bairro": {
-      "default": false,
       "type": "boolean"
     },
     "cidade": {
