@@ -27,7 +27,8 @@
     "bairros": {
       "collection": "bairro",
       "via": "noticia",
-      "dominant": true
+      "dominant": true,
+      "autoPopulate": false
     },
     "user": {
       "model": "user",
@@ -40,12 +41,14 @@
     "tags": {
       "collection": "tag",
       "via": "noticias",
-      "dominant": true
+      "dominant": true,
+      "autoPopulate": false
     },
     "categorias": {
       "collection": "categoria",
       "via": "noticias",
-      "dominant": true
+      "dominant": true,
+      "autoPopulate": false
     },
     "wp_user_id": {
       "default": "",

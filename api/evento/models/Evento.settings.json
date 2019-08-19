@@ -46,7 +46,8 @@
     "bairros": {
       "collection": "bairro",
       "via": "eventos",
-      "dominant": true
+      "dominant": true,
+      "autoPopulate": false
     },
     "user": {
       "model": "user",
@@ -55,12 +56,14 @@
     "categorias": {
       "collection": "categoria",
       "via": "eventos",
-      "dominant": true
+      "dominant": true,
+      "autoPopulate": false
     },
     "tags": {
       "collection": "tag",
       "via": "eventos",
-      "dominant": true
+      "dominant": true,
+      "autoPopulate": false
     },
     "preco": {
       "default": "",
