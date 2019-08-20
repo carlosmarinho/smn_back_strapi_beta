@@ -52,8 +52,7 @@
     "bairros": {
       "collection": "bairro",
       "via": "guias",
-      "dominant": true,
-      "autoPopulate": false
+      "dominant": true
     },
     "user": {
       "model": "user",

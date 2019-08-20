@@ -48,8 +48,7 @@
     "bairros": {
       "collection": "bairro",
       "via": "eventos",
-      "dominant": true,
-      "autoPopulate": false
+      "dominant": true
     },
     "user": {
       "model": "user",
@@ -58,14 +57,12 @@
     "categorias": {
       "collection": "categoria",
       "via": "eventos",
-      "dominant": true,
-      "autoPopulate": false
+      "dominant": true
     },
     "tags": {
       "collection": "tag",
       "via": "eventos",
-      "dominant": true,
-      "autoPopulate": false
+      "dominant": true
     },
     "preco": {
       "default": "",
@@ -124,7 +121,7 @@
     "cidade": {
       "model": "cidade"
     },
-    "Endereço": {
+    "endereco": {
       "default": "",
       "type": "string"
     },

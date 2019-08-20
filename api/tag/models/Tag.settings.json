@@ -19,7 +19,8 @@
     },
     "noticias": {
       "collection": "noticia",
-      "via": "tags"
+      "via": "tags",
+      "autoPopulate": false
     },
     "slug": {
       "default": "",
@@ -34,10 +35,6 @@
       "default": "",
       "type": "integer"
     },
-    "eventos": {
-      "collection": "evento",
-      "via": "tags"
-    },
     "wpid": {
       "default": "",
       "type": "integer"
@@ -48,7 +45,13 @@
     },
     "guias": {
       "collection": "guia",
-      "via": "tags"
+      "via": "tags",
+      "autoPopulate": false
+    },
+    "eventos": {
+      "collection": "evento",
+      "via": "tags",
+      "autoPopulate": false
     }
   }
 }

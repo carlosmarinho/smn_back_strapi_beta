@@ -40,11 +40,6 @@
       "default": "",
       "type": "integer"
     },
-    "eventos": {
-      "collection": "evento",
-      "via": "bairros",
-      "autoPopulate": false
-    },
     "menus": {
       "collection": "menu",
       "via": "bairros",
@@ -64,6 +59,11 @@
     },
     "guias": {
       "collection": "guia",
+      "via": "bairros",
+      "autoPopulate": false
+    },
+    "eventos": {
+      "collection": "evento",
       "via": "bairros"
     }
   }
