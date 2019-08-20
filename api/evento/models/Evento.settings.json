@@ -121,7 +121,7 @@
     "cidade": {
       "model": "cidade"
     },
-    "Endereço": {
+    "endereco": {
       "default": "",
       "type": "string"
     },

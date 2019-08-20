@@ -40,12 +40,14 @@
     "categorias": {
       "collection": "categoria",
       "via": "guias",
-      "dominant": true
+      "dominant": true,
+      "autoPopulate": false
     },
     "tags": {
       "collection": "tag",
       "via": "guias",
-      "dominant": true
+      "dominant": true,
+      "autoPopulate": false
     },
     "bairros": {
       "collection": "bairro",
@@ -132,7 +134,8 @@
     "cidade": {
       "collection": "cidade",
       "via": "guias",
-      "dominant": true
+      "dominant": true,
+      "autoPopulate": false
     },
     "cidade_destaque": {
       "model": "cidade",
