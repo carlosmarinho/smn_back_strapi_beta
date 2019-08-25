@@ -32,17 +32,24 @@
       "default": "",
       "type": "string"
     },
-    "undefined": {
-      "collection": "evento",
-      "via": "cidade"
-    },
     "guias": {
       "collection": "guia",
-      "via": "cidade"
+      "via": "cidade",
+      "autoPopulate": false
     },
     "guias_destacados": {
       "collection": "guia",
       "via": "cidade_destaque"
+    },
+    "eventos": {
+      "collection": "evento",
+      "via": "cidade",
+      "autoPopulate": false
+    },
+    "undefined": {
+      "collection": "user",
+      "via": "cidade",
+      "plugin": "users-permissions"
     }
   }
 }
