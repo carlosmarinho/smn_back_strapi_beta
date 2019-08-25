@@ -3,11 +3,12 @@
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
+  "main": "./server.js",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
+    "strapi": "node_modules/strapi/bin/strapi.js",
     "lint": "eslint ."
   },
   "devDependencies": {
@@ -19,7 +20,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.5",
-    "strapi": "3.0.0-beta.15",
+    "strapi": "^3.0.0-beta.15",
     "strapi-admin": "3.0.0-beta.15",
     "strapi-hook-mongoose": "3.0.0-beta.15",
     "strapi-plugin-content-manager": "3.0.0-beta.15",
