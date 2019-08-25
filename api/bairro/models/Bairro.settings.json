@@ -65,6 +65,11 @@
     "eventos": {
       "collection": "evento",
       "via": "bairros"
+    },
+    "undefined": {
+      "collection": "user",
+      "via": "bairro",
+      "plugin": "users-permissions"
     }
   }
 }

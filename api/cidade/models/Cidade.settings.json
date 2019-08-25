@@ -45,6 +45,11 @@
       "collection": "evento",
       "via": "cidade",
       "autoPopulate": false
+    },
+    "undefined": {
+      "collection": "user",
+      "via": "cidade",
+      "plugin": "users-permissions"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
-  "collectionName": "users-permissions_user",
   "connection": "default",
+  "collectionName": "users-permissions_user",
   "info": {
     "name": "user",
     "description": ""
@@ -55,6 +55,41 @@
       "via": "users",
       "plugin": "users-permissions",
       "configurable": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "cep": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "cidade": {
+      "model": "cidade"
+    },
+    "bairro": {
+      "model": "bairro"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "website": {
+      "type": "string"
+    },
+    "imagem_perfil": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "complement": {
+      "type": "string"
     }
   }
 }
