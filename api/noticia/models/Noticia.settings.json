@@ -6,7 +6,10 @@
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "titulo": {
@@ -21,8 +24,7 @@
     "imagem_destacada": {
       "model": "file",
       "via": "related",
-      "plugin": "upload",
-      "required": false
+      "plugin": "upload"
     },
     "bairros": {
       "collection": "bairro",
@@ -56,11 +58,9 @@
       "type": "integer"
     },
     "imported_category": {
-      "default": false,
       "type": "boolean"
     },
     "imported_tag": {
-      "default": false,
       "type": "boolean"
     },
     "old_imagem_destacada": {
@@ -68,11 +68,9 @@
       "type": "string"
     },
     "imported_bairro": {
-      "default": false,
       "type": "boolean"
     },
     "imported_imagem_destacada": {
-      "default": false,
       "type": "boolean"
     },
     "array_categorias": {
@@ -106,6 +104,9 @@
     },
     "featured": {
       "default": true,
+      "type": "boolean"
+    },
+    "approved": {
       "type": "boolean"
     }
   }

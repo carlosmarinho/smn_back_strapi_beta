@@ -30,11 +30,6 @@
       "default": "",
       "type": "integer"
     },
-    "noticias": {
-      "collection": "noticia",
-      "via": "categorias",
-      "autoPopulate": false
-    },
     "wpid": {
       "default": "",
       "type": "integer"
@@ -63,13 +58,16 @@
       "default": "",
       "type": "string"
     },
-    "eventos": {
-      "collection": "evento",
-      "via": "categorias",
-      "autoPopulate": false
-    },
     "guias": {
       "collection": "guia",
+      "via": "categorias"
+    },
+    "eventos": {
+      "collection": "evento",
+      "via": "categorias"
+    },
+    "noticias": {
+      "collection": "noticia",
       "via": "categorias"
     }
   }
