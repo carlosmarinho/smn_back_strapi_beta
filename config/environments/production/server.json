@@ -1,5 +1,5 @@
 {
-  "host": "soumaisniteroi.com.br",
+  "host": "strapi.soumaisniteroi.com.br",
   "port": "21023",
   "proxy": {
     "enabled": false
