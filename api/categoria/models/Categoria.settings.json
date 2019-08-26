@@ -60,15 +60,18 @@
     },
     "guias": {
       "collection": "guia",
-      "via": "categorias"
+      "via": "categorias",
+      "autoPopulate": false
     },
     "eventos": {
       "collection": "evento",
-      "via": "categorias"
+      "via": "categorias",
+      "autoPopulate": false
     },
     "noticias": {
       "collection": "noticia",
-      "via": "categorias"
+      "via": "categorias",
+      "autoPopulate": false
     }
   }
 }
