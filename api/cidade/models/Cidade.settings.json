@@ -32,13 +32,15 @@
       "default": "",
       "type": "string"
     },
-    "undefined": {
+    "evento": {
       "collection": "evento",
-      "via": "cidade"
+      "via": "cidade",
+      "autoPopulate": false
     },
     "guias": {
       "collection": "guia",
-      "via": "cidade"
+      "via": "cidade",
+      "autoPopulate": false
     },
     "guias_destacados": {
       "collection": "guia",

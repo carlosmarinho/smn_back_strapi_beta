@@ -36,19 +36,23 @@
     },
     "paginas": {
       "collection": "pagina",
-      "via": "tags"
+      "via": "tags",
+      "autoPopulate": false
     },
     "guias": {
       "collection": "guia",
-      "via": "tags"
+      "via": "tags",
+      "autoPopulate": false
     },
     "eventos": {
       "collection": "evento",
-      "via": "tags"
+      "via": "tags",
+      "autoPopulate": false
     },
     "noticias": {
       "collection": "noticia",
-      "via": "tags"
+      "via": "tags",
+      "autoPopulate": false
     }
   }
 }

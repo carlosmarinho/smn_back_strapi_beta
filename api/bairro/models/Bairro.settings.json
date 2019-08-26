@@ -52,22 +52,25 @@
       "default": "",
       "type": "string"
     },
-    "undefined": {
+    "user": {
       "collection": "user",
       "via": "bairro",
       "plugin": "users-permissions"
     },
     "guias": {
       "collection": "guia",
-      "via": "bairros"
+      "via": "bairros",
+      "autoPopulate": false
     },
     "eventos": {
       "collection": "evento",
-      "via": "bairros"
+      "via": "bairros",
+      "autoPopulate": false
     },
     "noticia": {
       "collection": "noticia",
-      "via": "bairros"
+      "via": "bairros",
+      "autoPopulate": false
     }
   }
 }
