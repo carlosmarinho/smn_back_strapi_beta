@@ -144,6 +144,9 @@
     "object_user": {
       "default": "",
       "type": "json"
+    },
+    "approved": {
+      "type": "boolean"
     }
   }
 }
