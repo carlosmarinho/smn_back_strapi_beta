@@ -23,11 +23,6 @@
       "model": "cidade",
       "via": "bairros"
     },
-    "noticia": {
-      "collection": "noticia",
-      "via": "bairros",
-      "autoPopulate": false
-    },
     "descricao": {
       "default": "",
       "type": "text"
@@ -57,6 +52,11 @@
       "default": "",
       "type": "string"
     },
+    "user": {
+      "collection": "user",
+      "via": "bairro",
+      "plugin": "users-permissions"
+    },
     "guias": {
       "collection": "guia",
       "via": "bairros",
@@ -64,7 +64,13 @@
     },
     "eventos": {
       "collection": "evento",
-      "via": "bairros"
+      "via": "bairros",
+      "autoPopulate": false
+    },
+    "noticia": {
+      "collection": "noticia",
+      "via": "bairros",
+      "autoPopulate": false
     }
   }
 }

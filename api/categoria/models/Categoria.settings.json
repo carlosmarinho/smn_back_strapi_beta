@@ -30,11 +30,6 @@
       "default": "",
       "type": "integer"
     },
-    "noticias": {
-      "collection": "noticia",
-      "via": "categorias",
-      "autoPopulate": false
-    },
     "wpid": {
       "default": "",
       "type": "integer"
@@ -70,6 +65,11 @@
     },
     "eventos": {
       "collection": "evento",
+      "via": "categorias",
+      "autoPopulate": false
+    },
+    "noticias": {
+      "collection": "noticia",
       "via": "categorias",
       "autoPopulate": false
     }

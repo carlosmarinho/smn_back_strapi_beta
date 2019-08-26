@@ -17,11 +17,6 @@
       "default": "",
       "type": "string"
     },
-    "noticias": {
-      "collection": "noticia",
-      "via": "tags",
-      "autoPopulate": false
-    },
     "slug": {
       "default": "",
       "type": "string",
@@ -41,7 +36,8 @@
     },
     "paginas": {
       "collection": "pagina",
-      "via": "tags"
+      "via": "tags",
+      "autoPopulate": false
     },
     "guias": {
       "collection": "guia",
@@ -50,6 +46,11 @@
     },
     "eventos": {
       "collection": "evento",
+      "via": "tags",
+      "autoPopulate": false
+    },
+    "noticias": {
+      "collection": "noticia",
       "via": "tags",
       "autoPopulate": false
     }
