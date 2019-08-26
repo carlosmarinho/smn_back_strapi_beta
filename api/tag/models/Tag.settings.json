@@ -43,15 +43,14 @@
       "collection": "pagina",
       "via": "tags"
     },
-    "guias": {
-      "collection": "guia",
-      "via": "tags",
-      "autoPopulate": false
-    },
     "eventos": {
       "collection": "evento",
       "via": "tags",
       "autoPopulate": false
+    },
+    "guias": {
+      "collection": "guia",
+      "via": "tags"
     }
   }
 }

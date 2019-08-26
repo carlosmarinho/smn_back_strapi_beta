@@ -32,15 +32,6 @@
       "default": "",
       "type": "string"
     },
-    "guias": {
-      "collection": "guia",
-      "via": "cidade",
-      "autoPopulate": false
-    },
-    "guias_destacados": {
-      "collection": "guia",
-      "via": "cidade_destaque"
-    },
     "eventos": {
       "collection": "evento",
       "via": "cidade",
@@ -50,6 +41,14 @@
       "collection": "user",
       "via": "cidade",
       "plugin": "users-permissions"
+    },
+    "guias": {
+      "collection": "guia",
+      "via": "cidade"
+    },
+    "guias_destacados": {
+      "collection": "guia",
+      "via": "cidade_destaque"
     }
   }
 }
