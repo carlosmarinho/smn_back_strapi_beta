@@ -57,11 +57,6 @@
       "default": "",
       "type": "string"
     },
-    "guias": {
-      "collection": "guia",
-      "via": "bairros",
-      "autoPopulate": false
-    },
     "eventos": {
       "collection": "evento",
       "via": "bairros"
@@ -70,6 +65,10 @@
       "collection": "user",
       "via": "bairro",
       "plugin": "users-permissions"
+    },
+    "guias": {
+      "collection": "guia",
+      "via": "bairros"
     }
   }
 }

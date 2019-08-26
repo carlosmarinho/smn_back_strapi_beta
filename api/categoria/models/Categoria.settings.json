@@ -63,15 +63,14 @@
       "default": "",
       "type": "string"
     },
-    "guias": {
-      "collection": "guia",
-      "via": "categorias",
-      "autoPopulate": false
-    },
     "eventos": {
       "collection": "evento",
       "via": "categorias",
       "autoPopulate": false
+    },
+    "guias": {
+      "collection": "guia",
+      "via": "categorias"
     }
   }
 }

@@ -40,14 +40,12 @@
     "categorias": {
       "collection": "categoria",
       "via": "guias",
-      "dominant": true,
-      "autoPopulate": false
+      "dominant": true
     },
     "tags": {
       "collection": "tag",
       "via": "guias",
-      "dominant": true,
-      "autoPopulate": false
+      "dominant": true
     },
     "bairros": {
       "collection": "bairro",
@@ -134,8 +132,7 @@
     "cidade": {
       "collection": "cidade",
       "via": "guias",
-      "dominant": true,
-      "autoPopulate": false
+      "dominant": true
     },
     "cidade_destaque": {
       "model": "cidade",
@@ -185,6 +182,9 @@
     "funcionamento_hora_final": {
       "default": "",
       "type": "string"
+    },
+    "approved": {
+      "type": "boolean"
     }
   }
 }
