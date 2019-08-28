@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "reviewguia",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "noticia": {
+      "model": "noticia"
+    },
+    "media": {
+      "type": "float"
+    },
+    "quantidade_votos": {
+      "type": "integer"
+    },
+    "last_update": {
+      "type": "date"
+    }
+  }
+}

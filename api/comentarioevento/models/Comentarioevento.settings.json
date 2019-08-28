@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "comentario",
+  "collectionName": "comentarioevento",
   "info": {
-    "name": "comentario",
+    "name": "comentarioevento",
     "description": ""
   },
   "options": {
@@ -34,14 +34,6 @@
     },
     "aprovado": {
       "type": "boolean"
-    },
-    "wp_post_id": {
-      "default": "",
-      "type": "integer"
-    },
-    "wp_user_id": {
-      "default": "",
-      "type": "integer"
     },
     "classificacao": {
       "type": "decimal"

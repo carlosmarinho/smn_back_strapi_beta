@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/revieweventos",
+      "handler": "Reviewevento.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/revieweventos/count",
+      "handler": "Reviewevento.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/revieweventos/:_id",
+      "handler": "Reviewevento.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/revieweventos",
+      "handler": "Reviewevento.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/revieweventos/:_id",
+      "handler": "Reviewevento.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/revieweventos/:_id",
+      "handler": "Reviewevento.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

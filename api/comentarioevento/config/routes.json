@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/comentarioeventos",
+      "handler": "Comentarioevento.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/comentarioeventos/count",
+      "handler": "Comentarioevento.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/comentarioeventos/:_id",
+      "handler": "Comentarioevento.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/comentarioeventos",
+      "handler": "Comentarioevento.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/comentarioeventos/:_id",
+      "handler": "Comentarioevento.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/comentarioeventos/:_id",
+      "handler": "Comentarioevento.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
