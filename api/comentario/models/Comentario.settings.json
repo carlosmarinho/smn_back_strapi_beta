@@ -6,7 +6,10 @@
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "titulo": {
@@ -30,7 +33,6 @@
       "type": "string"
     },
     "aprovado": {
-      "default": false,
       "type": "boolean"
     },
     "wp_post_id": {
@@ -40,6 +42,13 @@
     "wp_user_id": {
       "default": "",
       "type": "integer"
+    },
+    "classificacao": {
+      "type": "decimal"
+    },
+    "noticia": {
+      "model": "noticia",
+      "via": "comentarios"
     }
   }
 }

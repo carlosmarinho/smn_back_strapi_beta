@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "review",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "guia": {
+      "model": "guia"
+    },
+    "media": {
+      "type": "decimal"
+    },
+    "quantidade_votos": {
+      "type": "integer"
+    },
+    "last_update": {
+      "type": "date"
+    }
+  }
+}

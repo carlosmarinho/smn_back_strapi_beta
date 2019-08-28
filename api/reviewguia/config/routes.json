@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reviewguias",
+      "handler": "Reviewguia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reviewguias/count",
+      "handler": "Reviewguia.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reviewguias/:_id",
+      "handler": "Reviewguia.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reviewguias",
+      "handler": "Reviewguia.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reviewguias/:_id",
+      "handler": "Reviewguia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reviewguias/:_id",
+      "handler": "Reviewguia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

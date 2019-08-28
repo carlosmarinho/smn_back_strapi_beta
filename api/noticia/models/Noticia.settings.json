@@ -108,6 +108,10 @@
     },
     "approved": {
       "type": "boolean"
+    },
+    "comentarios": {
+      "collection": "comentario",
+      "via": "noticia"
     }
   }
 }
