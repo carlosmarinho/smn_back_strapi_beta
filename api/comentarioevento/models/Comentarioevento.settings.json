@@ -1,0 +1,46 @@
+{
+  "connection": "default",
+  "collectionName": "comentarioevento",
+  "info": {
+    "name": "comentarioevento",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "titulo": {
+      "default": "",
+      "type": "string"
+    },
+    "descricao": {
+      "default": "",
+      "type": "text"
+    },
+    "author_name": {
+      "default": "",
+      "type": "string"
+    },
+    "author_email": {
+      "default": "",
+      "type": "email"
+    },
+    "author_ip": {
+      "default": "",
+      "type": "string"
+    },
+    "aprovado": {
+      "type": "boolean"
+    },
+    "classificacao": {
+      "type": "decimal"
+    },
+    "noticia": {
+      "model": "noticia",
+      "via": "comentarios"
+    }
+  }
+}
