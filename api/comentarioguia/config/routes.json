@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/comentarioguias",
+      "handler": "Comentarioguia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/comentarioguias/count",
+      "handler": "Comentarioguia.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/comentarioguias/:_id",
+      "handler": "Comentarioguia.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/comentarioguias",
+      "handler": "Comentarioguia.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/comentarioguias/:_id",
+      "handler": "Comentarioguia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/comentarioguias/:_id",
+      "handler": "Comentarioguia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
