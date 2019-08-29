@@ -112,6 +112,9 @@
     "comentarios": {
       "collection": "comentario",
       "via": "noticia"
+    },
+    "descricaoJson": {
+      "type": "json"
     }
   }
 }
