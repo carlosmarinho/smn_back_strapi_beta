@@ -112,6 +112,14 @@
     "comentarios": {
       "collection": "comentario",
       "via": "noticia"
+    },
+    "descricaoJson": {
+      "type": "json"
+    },
+    "galeria_imagens": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
     }
   }
 }

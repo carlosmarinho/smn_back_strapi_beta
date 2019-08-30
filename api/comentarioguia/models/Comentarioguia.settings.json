@@ -37,10 +37,6 @@
     },
     "classificacao": {
       "type": "decimal"
-    },
-    "noticia": {
-      "model": "noticia",
-      "via": "comentarios"
     }
   }
 }
