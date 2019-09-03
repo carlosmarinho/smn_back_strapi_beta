@@ -147,10 +147,6 @@
     },
     "approved": {
       "type": "boolean"
-    },
-    "reviewevento": {
-      "model": "reviewevento",
-      "via": "evento"
     }
   }
 }

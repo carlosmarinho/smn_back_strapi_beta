@@ -1,12 +1,15 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "reviewguia",
   "info": {
     "name": "reviewguia",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "media": {
@@ -15,8 +18,8 @@
     "quantidade_votos": {
       "type": "integer"
     },
-    "last_update": {
-      "type": "date"
+    "total": {
+      "type": "decimal"
     }
   }
 }

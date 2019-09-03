@@ -39,11 +39,6 @@
       "via": "tags",
       "autoPopulate": false
     },
-    "guias": {
-      "collection": "guia",
-      "via": "tags",
-      "autoPopulate": false
-    },
     "eventos": {
       "collection": "evento",
       "via": "tags",
@@ -51,6 +46,11 @@
     },
     "noticias": {
       "collection": "noticia",
+      "via": "tags",
+      "autoPopulate": false
+    },
+    "guias": {
+      "collection": "guia",
       "via": "tags",
       "autoPopulate": false
     }

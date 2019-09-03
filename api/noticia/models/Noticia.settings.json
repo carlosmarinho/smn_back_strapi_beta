@@ -109,10 +109,6 @@
     "approved": {
       "type": "boolean"
     },
-    "comentarios": {
-      "collection": "comentario",
-      "via": "noticia"
-    },
     "descricaoJson": {
       "type": "json"
     },
@@ -120,6 +116,10 @@
       "collection": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "comentarios": {
+      "collection": "comentario",
+      "via": "noticia"
     }
   }
 }

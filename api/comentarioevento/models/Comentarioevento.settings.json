@@ -37,6 +37,22 @@
     },
     "classificacao": {
       "type": "decimal"
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "evento": {
+      "model": "evento"
+    },
+    "like": {
+      "type": "json"
+    },
+    "deslike": {
+      "type": "json"
+    },
+    "report": {
+      "type": "json"
     }
   }
 }

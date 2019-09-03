@@ -185,6 +185,13 @@
     },
     "approved": {
       "type": "boolean"
+    },
+    "comentarioguias": {
+      "collection": "comentarioguia",
+      "via": "guia"
+    },
+    "reviewguia": {
+      "model": "reviewguia"
     }
   }
 }

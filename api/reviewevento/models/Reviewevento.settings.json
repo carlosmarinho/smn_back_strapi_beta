@@ -1,26 +1,25 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "reviewevento",
   "info": {
     "name": "reviewevento",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
-    "evento": {
-      "model": "evento",
-      "via": "reviewevento"
-    },
     "media": {
       "type": "decimal"
     },
     "quantidade_votos": {
       "type": "integer"
     },
-    "last_update": {
-      "type": "date"
+    "total": {
+      "type": "decimal"
     }
   }
 }

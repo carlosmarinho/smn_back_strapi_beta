@@ -49,6 +49,19 @@
     "noticia": {
       "model": "noticia",
       "via": "comentarios"
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "like": {
+      "type": "json"
+    },
+    "deslike": {
+      "type": "json"
+    },
+    "report": {
+      "type": "json"
     }
   }
 }
