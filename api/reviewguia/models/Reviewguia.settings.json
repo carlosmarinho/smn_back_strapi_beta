@@ -20,6 +20,43 @@
     },
     "total": {
       "type": "decimal"
+    },
+    "media_five_star": {
+      "type": "decimal"
+    },
+    "total_five_star": {
+      "type": "integer"
+    },
+    "media_four_star": {
+      "type": "decimal"
+    },
+    "total_four_star": {
+      "type": "integer"
+    },
+    "media_three_star": {
+      "type": "decimal"
+    },
+    "total_three_star": {
+      "type": "integer"
+    },
+    "media_two_star": {
+      "type": "decimal"
+    },
+    "total_two_star": {
+      "type": "integer"
+    },
+    "media_one_star": {
+      "type": "decimal"
+    },
+    "total_one_star": {
+      "type": "integer"
+    },
+    "media_zero_star": {
+      "type": "decimal"
+    },
+    "total_zero_star": {
+      "type": "integer"
     }
+
   }
 }
