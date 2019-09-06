@@ -150,6 +150,10 @@
     },
     "reviewevento": {
       "model": "reviewevento"
+    },
+    "comentarioeventos": {
+      "collection": "comentarioevento",
+      "via": "evento"
     }
   }
 }

@@ -43,7 +43,8 @@
       "plugin": "users-permissions"
     },
     "evento": {
-      "model": "evento"
+      "model": "evento",
+      "via": "comentarioeventos"
     },
     "like": {
       "type": "json"
