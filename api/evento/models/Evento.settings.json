@@ -149,7 +149,10 @@
       "type": "boolean"
     },
     "reviewevento": {
-      "model": "reviewevento",
+      "model": "reviewevento"
+    },
+    "comentarioeventos": {
+      "collection": "comentarioevento",
       "via": "evento"
     }
   }
