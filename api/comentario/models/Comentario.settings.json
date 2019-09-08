@@ -46,10 +46,6 @@
     "classificacao": {
       "type": "decimal"
     },
-    "noticia": {
-      "model": "noticia",
-      "via": "comentarios"
-    },
     "user": {
       "model": "user",
       "plugin": "users-permissions"
@@ -62,6 +58,10 @@
     },
     "report": {
       "type": "json"
+    },
+    "noticia": {
+      "model": "noticia",
+      "via": "comentarios"
     }
   }
 }
