@@ -120,6 +120,9 @@
     "comentarios": {
       "collection": "comentario",
       "via": "noticia"
+    },
+    "url_original_reference": {
+      "type": "string"
     }
   }
 }
