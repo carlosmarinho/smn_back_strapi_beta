@@ -154,6 +154,9 @@
     "comentarioeventos": {
       "collection": "comentarioevento",
       "via": "evento"
+    },
+    "url_original_reference": {
+      "type": "string"
     }
   }
 }

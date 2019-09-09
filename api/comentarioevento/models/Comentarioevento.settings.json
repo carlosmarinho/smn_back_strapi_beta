@@ -42,10 +42,6 @@
       "model": "user",
       "plugin": "users-permissions"
     },
-    "evento": {
-      "model": "evento",
-      "via": "comentarioeventos"
-    },
     "like": {
       "type": "json"
     },
@@ -54,6 +50,10 @@
     },
     "report": {
       "type": "json"
+    },
+    "evento": {
+      "model": "evento",
+      "via": "comentarioeventos"
     }
   }
 }
