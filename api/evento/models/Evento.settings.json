@@ -157,6 +157,9 @@
     },
     "url_original_reference": {
       "type": "string"
+    },
+    "featured": {
+      "type": "boolean"
     }
   }
 }
