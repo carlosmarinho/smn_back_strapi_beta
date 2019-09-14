@@ -105,7 +105,6 @@
       "type": "string"
     },
     "featured": {
-      "default": true,
       "type": "boolean"
     },
     "approved": {
