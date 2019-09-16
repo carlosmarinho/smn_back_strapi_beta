@@ -192,6 +192,9 @@
     },
     "reviewguia": {
       "model": "reviewguia"
+    },
+    "featured": {
+      "type": "boolean"
     }
   }
 }
