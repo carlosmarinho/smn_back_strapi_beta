@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/guianaoexistemais",
+      "handler": "Guianaoexistemais.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/guianaoexistemais/count",
+      "handler": "Guianaoexistemais.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/guianaoexistemais/:_id",
+      "handler": "Guianaoexistemais.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/guianaoexistemais",
+      "handler": "Guianaoexistemais.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/guianaoexistemais/:_id",
+      "handler": "Guianaoexistemais.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/guianaoexistemais/:_id",
+      "handler": "Guianaoexistemais.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

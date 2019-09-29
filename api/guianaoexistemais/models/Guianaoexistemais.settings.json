@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "guianaoexistemais",
+  "info": {
+    "name": "guianaoexistemais",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "guia": {
+      "model": "guia"
+    },
+    "nome": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    }
+  }
+}
